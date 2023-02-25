@@ -1,7 +1,3 @@
-struct CipherText {}
+pub trait Encrypt {}
 
-struct PlainText {}
-
-trait Encrypt {}
-
-trait Decrypt {}
+pub trait Decrypt {}
